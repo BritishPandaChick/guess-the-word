@@ -3,9 +3,9 @@ const guessedLettersElement = document.querySelector(".guessed-letters");
 const guessLetterButton = document.querySelector(".guess");
 const letterInput = document.querySelector(".letter");
 const wordInProgress = document.querySelector(".word-in-progress");
-const remainingGuessElement = document.querySelector(".remaining");
+const remainingGuessesElement = document.querySelector(".remaining");
 const remainGuessesSpan = document.querySelector(".remaining span");
-const message = document.querySelector("message");
+const message = document.querySelector(".message");
 const playAgainButton = document.querySelector(".play-again");
 
 const word = "magnolia";
